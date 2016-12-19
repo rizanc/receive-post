@@ -52,7 +52,7 @@ app.post('/opera', binaryData, function(req, res) {
 
     } else{
         console.log('Not  a buffer');
-        res.status(400).send({ error: 'Unexpexted Request' })
+        res.status(402).send({ error: 'Unexpected Request' })
     }
 
     res.send("OK");
